@@ -2,10 +2,11 @@ body {
     font-size: 20px;
     color: white;
     line-height: 150%;
-    background-image: url("Images/marek-piwnicki-s_fgw1df-_I-unsplash.jpg");
+    background: #363759;
+    /* background-image: url("Images/marek-piwnicki-s_fgw1df-_I-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .section_1 {
@@ -13,7 +14,7 @@ body {
 }
 
 .form {
-    border: 2px solid #363759;
+    border: 2px solid #F2C2CF;
     border-radius: 15px;
     width: 350px;
     padding: 50px;
