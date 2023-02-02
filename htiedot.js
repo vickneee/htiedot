@@ -10,7 +10,7 @@ function Taydenna() {
     const sNimi = document.getElementById("sNimi").value;
     var nimi = eNimi + " " + sNimi;
 
-    var tulos = "Hei " + nimi + "!" + "\n" + "Olet " + ikä + " vuotias!"
+    var tulos = "Hei " + nimi + "! Olet " + ikä + " vuotias!"
 
     document.getElementById("tulos").innerHTML = tulos;
 }
