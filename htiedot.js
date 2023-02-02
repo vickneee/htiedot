@@ -1,7 +1,7 @@
 function Taydenna() {
     const tämäPäivä = new Date();
     var tämäVuosi = tämäPäivä.getFullYear();
-    var spvm = document.getElementById("Spvm").value;
+    var spvm = document.getElementById("sPvm").value;
     syntymäPäivä = new Date(spvm);
     var syntymäVuosi = syntymäPäivä.getFullYear();
     var ikä = tämäVuosi - syntymäVuosi;
