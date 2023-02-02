@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="htiedot.css">
+    <script src="htiedot.js"></script>
+    <title>Htiedot</title>
+</head>
+
+<body>
+<section class="section_1">
+    <div class="form">
+        <form id="myform">
+            <label>Etunimi: <input class="input enimi" type="text" id="eNimi"></label>
+            <br>
+            <label>Sukunimi: <input class="input snimi" type="text" id="sNimi"></label>
+            <br>
+            <label>Syntymäpäivä: <input class="input spvm" type="date" id="spvm"></label>
+            <br>
+            <label>Suosikki aihe?</label><br>
+            <label><input type="radio">HTML</label><br>
+            <label><input type="radio">CSS</label><br>
+            <label><input type="radio">Python</label><br>
+            <label>Miten tulet kouluun?</label><br>
+            <label><input type="checkbox">Bussilla</label><br>
+            <label><input type="checkbox">Junalla</label><br>
+            <label><input type="checkbox">Pyörällä</label><br>
+            <label><input type="checkbox">Autolla</label><br>
+        </form>
+            <div class="buttons">
+                <button onclick="Taydenna()">Laske ikä</button>
+                <p id="tulos"></p>
+            </div>
+    </div>
+</section>
+</body>
+</html>

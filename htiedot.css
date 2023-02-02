@@ -1,0 +1,58 @@
+body {
+    font-size: 20px;
+    color: white;
+    line-height: 150%;
+    background-image: url("/Images/marek-piwnicki-s_fgw1df-_I-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section_1 {
+    height: 100%;
+}
+
+.form {
+    border: 2px solid #363759;
+    border-radius: 15px;
+    width: 350px;
+    padding: 50px;
+    background-color: #8C546E;
+    opacity: 95%;
+    margin: 150px auto;
+}
+
+.input {
+    float: right;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.spvm {
+    font-size: 15px;
+    padding: 3px 22px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.buttons button {
+    background-color: #363759;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.buttons button:hover,
+.buttons button:active {
+    background: #F2C2CF;
+    color: #8C546E;
+}
