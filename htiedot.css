@@ -54,6 +54,7 @@ body {
 
 .buttons button:hover,
 .buttons button:active {
-    background: #F2C2CF;
-    color: #8C546E;
+    background: #4a4b6a;
+    color: white;
+    cursor: pointer;
 }
