@@ -1,7 +1,7 @@
 body {
     font-size: 20px;
     color: white;
-    line-height: 150%;
+    line-height: 160%;
     /* background: #363759; */
     background-image: url("Images/marek-piwnicki-s_fgw1df-_I-unsplash.jpg");
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body {
 
 .input {
     float: right;
-    border-radius: 3px;
+    border-radius: 8px;
     font-size: 14px;
     font-weight: bold;
     padding: 5px;
