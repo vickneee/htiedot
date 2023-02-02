@@ -45,7 +45,7 @@ body {
 .buttons button {
     background-color: #363759;
     border: 2px solid white;
-    padding: 10px;
+    padding: 6px 10px;
     border-radius: 8px;
     color: white;
     text-align: center;
