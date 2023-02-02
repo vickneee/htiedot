@@ -2,11 +2,11 @@ body {
     font-size: 20px;
     color: white;
     line-height: 150%;
-    background: #363759;
-    /* background-image: url("Images/marek-piwnicki-s_fgw1df-_I-unsplash.jpg");
+    /* background: #363759; */
+    background-image: url("Images/marek-piwnicki-s_fgw1df-_I-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover; */
+    background-size: cover;
 }
 
 .section_1 {
