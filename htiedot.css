@@ -36,13 +36,9 @@ body {
     padding: 3px 22px;
 }
 
-.buttons {
-    display: flex;
-    align-items: center;
-    gap: 90px;
-}
-
 .buttons button {
+    margin-top: 14px;
+    width: 100%;
     background-color: #363759;
     border: 2px solid white;
     padding: 6px 10px;
@@ -54,7 +50,16 @@ body {
 
 .buttons button:hover,
 .buttons button:active {
-    background: #4a4b6a;
+    background: #26273e;
     color: white;
     cursor: pointer;
+}
+
+p {
+    background: white;
+    border-radius: 8px;
+    border: 2px solid #363759;
+    color: #26273e;
+    font-weight: bold;
+    text-align: center;
 }
